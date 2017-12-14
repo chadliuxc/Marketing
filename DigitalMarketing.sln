@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{18A02106-10EE-4C95-AE92-FD799DE71448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN", "CDN\CDN.csproj", "{86A26A90-D3D0-4C33-8F9B-CB59EF942E29}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Deployment", "Deployment\Deployment.deployproj", "{E17C89EA-17FC-4E26-99C6-75A0E2F3FA00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18A02106-10EE-4C95-AE92-FD799DE71448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A02106-10EE-4C95-AE92-FD799DE71448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A02106-10EE-4C95-AE92-FD799DE71448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A02106-10EE-4C95-AE92-FD799DE71448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A26A90-D3D0-4C33-8F9B-CB59EF942E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A26A90-D3D0-4C33-8F9B-CB59EF942E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A26A90-D3D0-4C33-8F9B-CB59EF942E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A26A90-D3D0-4C33-8F9B-CB59EF942E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17C89EA-17FC-4E26-99C6-75A0E2F3FA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17C89EA-17FC-4E26-99C6-75A0E2F3FA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17C89EA-17FC-4E26-99C6-75A0E2F3FA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17C89EA-17FC-4E26-99C6-75A0E2F3FA00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C7F8F72-1E71-407F-A051-B812AE1D65EA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://canviz.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Web\\Web.csproj
+		SccProjectName1 = Web
+		SccLocalPath1 = Web
+		SccProjectUniqueName2 = CDN\\CDN.csproj
+		SccProjectName2 = CDN
+		SccLocalPath2 = CDN
+		SccProjectUniqueName3 = Deployment\\Deployment.deployproj
+		SccProjectName3 = Deployment
+		SccLocalPath3 = Deployment
+	EndGlobalSection
+EndGlobal
